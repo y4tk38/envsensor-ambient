@@ -23,7 +23,7 @@ while True:
     if data is not None:
 
         if data.tick_last_update > latest_update:
-            print('Illumination: {} lx'.format(data.val_pressure))
+            print('Pressure: {} hp'.format(data.val_pressure))
 
         latest_update = data.tick_last_update
 
